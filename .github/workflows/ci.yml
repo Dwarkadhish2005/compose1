@@ -9,8 +9,9 @@ on :
 
 jobs :
 
+  runs-on: ubuntu-latest
+  
   test:
-    runs-on : ubuntu-latest
 
   strategy:
     matrix:
