@@ -25,7 +25,7 @@ jobs:
           context: ./backend
           file: ./backend/Dockerfile
           push: true
-          tags: manish275/backend-app:latest
+          tags: dwarkadhish2005/backend-app:latest
 
   test:
     runs-on: ubuntu-latest
@@ -34,4 +34,4 @@ jobs:
       - run: echo "hello world"
 
       - run: |
-          echo "manish kalwani"
+          echo "dwarkadhish Kamthane"
