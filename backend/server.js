@@ -34,6 +34,7 @@ app.get("/", (req, res) => {
 
 app.post("/student", async (req, res) => {
   try {
+    
     const student = await Student.create(
       req.body
     );
